@@ -6,7 +6,10 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1044d6eb-658a-4e6e-8a81-ad0120e74acd" name="Default Changelist" comment="" />
+    <list default="true" id="1044d6eb-658a-4e6e-8a81-ad0120e74acd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/zlt/test/TestGit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -95,11 +98,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-951">
               <caret line="35" column="17" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/zlt/test/TestGit.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="261">
+              <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -302,7 +314,16 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="md" type="462c0819:PsiDirectoryNode" />
+              <item name="zlt" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="zlt" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -495,7 +516,7 @@
       <workItem from="1607513419219" duration="1253000" />
       <workItem from="1608450786866" duration="1976000" />
       <workItem from="1608535708855" duration="1431000" />
-      <workItem from="1608604449206" duration="3451000" />
+      <workItem from="1608604449206" duration="4368000" />
     </task>
     <task id="LOCAL-00001" summary="java resource">
       <created>1608607282255</created>
@@ -511,7 +532,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608607488909</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="test">
+      <created>1608608090085</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1608608090085</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -541,7 +569,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31798000" />
+    <option name="totallyTimeSpent" value="32715000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -596,7 +624,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="java resource" />
-    <option name="LAST_COMMIT_MESSAGE" value="java resource" />
+    <MESSAGE value="test" />
+    <option name="LAST_COMMIT_MESSAGE" value="test" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp" />
@@ -729,6 +758,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-951">
           <caret line="35" column="17" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/zlt/test/TestGit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
         </state>
       </provider>
     </entry>
