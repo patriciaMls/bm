@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<!-- saved from url=(0124)https://account.chsi.com.cn/passport/login?entrytype=yzgr&service=https%3A%2F%2Fyz.chsi.com.cn%2Fj_spring_cas_security_check -->
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>登录_中国研究生招生信息网</title>
+    <meta content="考研,研究生 招生,研究生 网上报名 网上调剂,专业学位,招生简章" name="keywords">
+    <meta content="中国研究生招生信息网是隶属于教育部的以考研为主题的官方网站，是教育部指定的研究生入学考试网上报名及调剂网站，主要提供研究生网上报名及调剂、专业目录查询、在线咨询、院校信息、报考指南和考试辅导等多方面的服务和信息指导。"
+          name="description">
+    <link rel="icon" href="https://t2.chei.com.cn/yz/favicon.ico?20200910" type="image/x-icon">
+    <link href="./login/yz_personal-1.0.0.css" rel="stylesheet">
+    <script type="text/javascript" id="zhuge-js" async="" src="./login/zhuge.js"></script>
+    <script type="text/javascript" async="" src="./login/ga.js"></script>
+    <script src="./login/jquery.min.js"></script>
+    <script src="./login/wap.min.js"></script>
+    <script src="./login/captchaChange.js"></script>
+    <script src="./login/zhuge-1.0.0.js"></script>
+</head>
+
+
+<body>
+<div class="yz-outer-layer">
+    <div class="yz-layer-content">
+
+
+        <div class="yz-header">
+            <div class="width1200 clearfix">
+                <h1>中国研究生招生信息网</h1>
+                <div class="yz-head-l">
+                    <a class="logo" href="https://yz.chsi.com.cn/" target="_blank" style="font-size: 35px; line-height: 80px; color: rgb(63,148,239)">中国研究生招生信息网</a>
+                </div>
+                <div class="yz-head-r wap-hide">
+                    <a href="https://yz.chsi.com.cn/help/" target="_blank">帮助中心</a>
+                    <span class="wap-show">　|　</span><a href="https://kl.chsi.com.cn/robot/index.action?system=account"
+                                                        class="wap-show" target="_blank">学信机器人</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="yz-main">
+            <a href="https://kl.chsi.com.cn/robot/index.action?system=account" target="_blank"
+               class="ch-robot wap-hide"></a>
+
+            <h2>登录</h2>
+            <p>
+                请使用
+                <a href="https://account.chsi.com.cn/account/help/index.jsp?keywords=%E5%AD%A6%E4%BF%A1%E7%BD%91%E8%B4%A6%E5%8F%B7%E5%8F%AF%E4%BB%A5%E5%81%9A%E4%BB%80%E4%B9%88"
+                   target="_blank">学信网账号</a>
+                进行登录
+            </p>
+            <div class="cr_top_yz">
+                <form id="fm1"
+                      method="post" autocomplete="off">
+                    <div id="wapError">
+                    </div>
+
+
+                    <div class="ct_input yz-yhm">
+                        <span class="ct_img_yhm">&nbsp;</span>
+                        <input id="username" name="username" class="input_text" tabindex="1" accesskey="n" type="text"
+                               value="" size="25" autocomplete="off" placeholder="手机号/身份证号/邮箱">
+                    </div>
+
+
+                    <div class="ct_input">
+                        <span class="ct_img_mm">&nbsp;</span>
+                        <input id="password" name="password" class="input_text" tabindex="2" accesskey="p"
+                               type="password" value="" size="25" autocomplete="off" placeholder="密码">
+                    </div>
+
+
+                    <div class="yz-pc-loginbtn">
+                        <input class="yz_btn_login" name="submit" accesskey="l" value="登  录" tabindex="4" type="button"
+                               title="登录" id="btn_login">
+                        <div class="account-oprate clearfix">
+                            <a href="https://account.chsi.com.cn/account/password!rtvlgname" class="find-yhm">找回用户名</a>
+                            <a href="https://account.chsi.com.cn/account/password!retrive" class="find-mm">找回密码</a>
+                            <a href="https://account.chsi.com.cn/account/preregister.action?from=yz-home"
+                               class="regist-btn">注册</a>
+                        </div>
+
+                        <div class="wx-container">
+
+                            <span class="wx-icon"> </span>
+                            <a href="https://open.weixin.qq.com/connect/qrconnect?appid=wx48c86c599b9add59&amp;redirect_uri=https%3A%2F%2Faccount.chsi.com.cn%2Fpassport%2Flogin%3Fclient_name%3Dwechat&amp;response_type=code&amp;scope=snsapi_login&amp;state=zU4xMhIPPL#wechat_redirect"
+                               class="wx-login-box">微信登录</a>
+                            <div class="wx-tip-dialog">
+                                <p><strong>微信登录仅支持个人用户使用</strong></p>
+                                <p>1、已有学信网账号？点击“微信登录”扫码登录；登录并绑定学信网账号，以后可使用微信扫码直接登录至该账号；</p>
+                                <p>2、无学信网账号？可先注册学信网账号，然后再使用“微信登录”。</p>
+                                <div class="wx-tip-arrow"></div>
+                            </div>
+                            <script>
+                                //鼠标移入显示微信登录弹框
+                                $(".wx-login-box").mouseover(function () {
+                                    $(".wx-tip-dialog").fadeIn();
+                                });
+                                $(".wx-login-box").mouseout(function () {
+                                    $(".wx-tip-dialog").fadeOut();
+                                });
+                            </script>
+                            <span class="zfb-icon"> </span>
+                            <a href="https://openauth.alipay.com/oauth2/publicAppAuthorize.htm?app_id=2018120362389757&amp;redirect_uri=https%3A%2F%2Faccount.chsi.com.cn%2Fpassport%2Flogin%3Fclient_name%3Dalipay&amp;state=5eDaZ80lMj&amp;scope=auth_user"
+                               class="zfb-login-box">支付宝登录</a>
+
+
+                            <div class="zfb-tip-dialog">
+                                <p><strong>支付宝登录仅支持个人用户使用</strong></p>
+                                <p>1、已有学信网账号？点击“支付宝登录”扫码登录；登录并绑定学信网账号，以后可使用支付宝扫码直接登录至该账号；</p>
+                                <p>2、无学信网账号？可先注册学信网账号，然后再使用“支付宝登录”。</p>
+                                <div class="wx-tip-arrow"></div>
+                            </div>
+                            <script>
+                                //鼠标移入显示微信登录弹框
+                                $(".zfb-login-box").mouseover(function () {
+                                    $(".zfb-tip-dialog").fadeIn();
+                                });
+                                $(".zfb-login-box").mouseout(function () {
+                                    $(".zfb-tip-dialog").fadeOut();
+                                });
+                            </script>
+
+                        </div>
+                    </div>
+                    <div class="yz-wap-loginbtn">
+                       <input class="yz_btn_login" name="submit" accesskey="l" value="登  录" tabindex="4" type="submit"
+                               title="登录">
+                        <div class="account-oprate clearfix">
+                            <a href="https://account.chsi.com.cn/account/password!rtvlgname" class="find-yhm">找回用户名</a>
+                            <a href="https://account.chsi.com.cn/account/password!retrive" class="find-mm">找回密码</a>
+                            <a href="https://account.chsi.com.cn/account/preregister.action?from=yz-home"
+                               class="regist-btn">注册</a>
+                        </div>
+                    </div>
+                    <div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="yz-footer">
+    Copyright © 2003-2020 <a href="https://www.chsi.com.cn/" target="_blank">学信网</a> All Rights Reserved
+</div>
+
+<script>
+    // $符号是一个jQuery框架的对象
+    // $(function() {}) jQuery的主函数 相当于 Java 中 public static void main() {}
+    $(function () {
+        // 给按钮增加一个点击事件
+        // 事件：网页中按钮能够产生一个点击效果，这就是所谓人机交互
+        // $("#btn_login") 找网页 id="btn_login" 的标签
+        $("#btn_login").on("click", function () {
+            var data = $("#fm1").serialize();
+            console.log(data);
+
+            // Ajax入门 - 借助jQuery框架
+            // 为我们现在前端后端分离打下基础 - 前端与后端的数据交互
+            $.ajax({
+                url:"http://localhost:8080/bm/login", // 服务器地址 - 即将要学习 servlet
+                type:"post", // 提交请求方式 - http post 协议请求
+                data:{
+                    "data":data
+                },
+                dataType:"json", // 给服务器发送数据
+                success:function (res) { // 服务器返回数据函数
+                    console.log("服务器正常执行没有报错...");
+                    console.log(res);
+                    var code = res.code;
+                    console.log(code);
+                    if(code === 200){
+                        console.log("验证成功...");
+                    }
+                },
+                error:function () {
+                    console.log("服务器执行报错...!");
+                }
+            });
+        });
+    });
+
+</script>
+
+</body>
+</html>
