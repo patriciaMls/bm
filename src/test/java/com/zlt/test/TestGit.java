@@ -1,5 +1,7 @@
 package com.zlt.test;
 
+import org.junit.Test;
+
 /**
  * @description:
  * @author: Patricia
@@ -8,4 +10,8 @@ package com.zlt.test;
  * @modified By:
  */
 public class TestGit {
+    @Test
+    public void justPrint(){
+        System.out.println("hello world.");
+    }
 }
